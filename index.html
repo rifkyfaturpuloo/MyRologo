@@ -1,0 +1,240 @@
+<!DOCTYPE html>
+<html lang="id">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>My Rologo &middot; Pusat Download Logo SMKN 12 Surabaya</title>
+    <meta
+      name="description"
+      content="Portal resmi unduhan logo SMKN 12 Surabaya mencakup logo sekolah, jurusan, serta ekstrakurikuler dengan format PNG, SVG, dan PDF."
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+  <body>
+    <header class="site-header" id="top">
+      <div class="brand">
+        <div class="brand-icon">
+          <img src="assets/logo-sekolah/tagline-real-arts-bg.jpg" alt="Logo Tagline The Real Arts School" />
+        </div>
+        <div class="brand-copy">
+          <span class="brand-name">My Rologo</span>
+          <span class="brand-tagline">Kumpulan Logo SMKN ROLAS</span>
+        </div>
+      </div>
+      <button
+        class="menu-toggle"
+        id="menuToggle"
+        type="button"
+        aria-label="Buka menu navigasi"
+        aria-expanded="false"
+      >
+        <span></span>
+        <span></span>
+        <span></span>
+      </button>
+      <nav class="site-nav" aria-label="Navigasi utama">
+        <a href="#logo-sekolah">Logo Sekolah</a>
+        <a href="#logo-event">Logo Event Sekolah</a>
+        <a href="#logo-jurusan">Logo Jurusan</a>
+        <a href="#logo-ekskul">Logo Ekstrakurikuler</a>
+      </nav>
+      <button class="theme-toggle" id="themeToggle" type="button" aria-label="Ganti tema">
+        <span class="theme-toggle__icon" aria-hidden="true">&#9728;</span>
+        <span class="theme-toggle__text">Mode Gelap</span>
+      </button>
+    </header>
+
+    <main>
+      <section class="hero" id="hero">
+        <div class="hero-text">
+          <p class="tagline">My Rologo &middot; Identitas Visual Resmi</p>
+          <h1>Semua Logo Resmi SMKN 12 Surabaya dalam Satu Portal</h1>
+          <p>
+            Akses cepat logo sekolah, jurusan, dan ekstrakurikuler dengan format standar produksi:
+            PNG, SVG, dan PDF. Tinggal pilih kategori dan unduh versi terbaiknya.
+          </p>
+          <div class="hero-actions">
+          <div class="hero-pills">
+            <button class="pill" data-scroll="#logo-sekolah">Logo Sekolah</button>
+            <button class="pill" data-scroll="#logo-event">Event Sekolah</button>
+            <button class="pill" data-scroll="#logo-jurusan">Logo Jurusan</button>
+            <button class="pill" data-scroll="#logo-ekskul">Logo Ekstrakurikuler</button>
+          </div>
+            <button class="btn btn-highlight" data-scroll="#logo-sekolah">Lihat Koleksi Logo</button>
+          </div>
+        </div>
+        <div class="hero-visual">
+          <div class="hero-card hero-video-card">
+            <div class="video-wrapper">
+              <iframe
+                src="https://www.youtube.com/embed/VXJmqaDhywQ?si=s72eGHAekIcoeihK"
+                title="Video Profil SMKN 12 Surabaya"
+                loading="lazy"
+                frameborder="0"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                allowfullscreen
+                referrerpolicy="strict-origin-when-cross-origin"
+              ></iframe>
+            </div>
+          </div>
+          <dl class="hero-stats">
+            <div>
+              <dt>Total Logo</dt>
+              <dd>30+</dd>
+            </div>
+            <div>
+              <dt>Kategori</dt>
+              <dd>4 Section</dd>
+            </div>
+            <div>
+              <dt>Format</dt>
+              <dd>PNG &middot; SVG &middot; PDF</dd>
+            </div>
+          </dl>
+        </div>
+      </section>
+
+      <section class="category-section school-highlight" id="logo-sekolah">
+        <div class="category-header">
+          <div>
+            <span class="eyebrow">Logo Sekolah</span>
+            <h2>Identitas Utama SMKN 12 Surabaya</h2>
+          </div>
+          <p>Unduh logo master sekolah dalam format berkualitas untuk kebutuhan resmi.</p>
+        </div>
+        <div class="school-extras">
+          <h3>Logo Pendukung Sekolah</h3>
+          <p>
+            Gunakan logo tambahan seperti identitas provinsi, SMK Bisa SMK Hebat, dan tagline sekolah
+            untuk materi resmi atau kampanye digital.
+          </p>
+          <div class="school-grid" id="schoolGrid" aria-live="polite"></div>
+        </div>
+      </section>
+
+      <section class="controls-panel" id="logo-panel">
+        <div class="controls-title">
+          <h2>Kelola Pencarian Logo</h2>
+          <p>Gunakan pencarian dan filter kategori untuk menemukan logo spesifik.</p>
+        </div>
+        <div class="controls-tools">
+          <label class="search-field">
+            <span class="sr-only">Cari logo</span>
+            <input id="searchInput" type="search" placeholder="Cari nama jurusan, ekskul, atau event..." />
+            <svg viewBox="0 0 24 24" aria-hidden="true">
+              <path
+                d="M15.5 14h-.79l-.28-.27A6 6 0 1 0 14 15.5l.27.28v.79L20 21.5 21.5 20l-5.5-6zm-5.5 1a5 5 0 1 1 0-10 5 5 0 0 1 0 10z"
+              />
+            </svg>
+          </label>
+          <div class="filter-group" role="tablist" aria-label="Filter kategori logo">
+            <button class="filter-btn is-active" data-filter="Semua" role="tab" aria-selected="true">
+              Semua
+            </button>
+            <button class="filter-btn" data-filter="Jurusan" role="tab" aria-selected="false">
+              Jurusan
+            </button>
+            <button
+              class="filter-btn"
+              data-filter="Ekstrakurikuler"
+              role="tab"
+              aria-selected="false"
+            >
+              Ekstrakurikuler
+            </button>
+            <button class="filter-btn" data-filter="Event" role="tab" aria-selected="false">
+              Event
+            </button>
+          </div>
+        </div>
+      </section>
+
+      <section class="category-section" id="logo-event">
+        <div class="category-header">
+          <div>
+            <span class="eyebrow">Logo Event</span>
+            <h2>Logo Event SMKN 12 Surabaya</h2>
+          </div>
+          <p>Koleksi logo event resmi seperti INDIST untuk kebutuhan kampanye dan dokumentasi.</p>
+        </div>
+        <div class="logo-grid" id="eventGrid" aria-live="polite"></div>
+      </section>
+
+      <section class="category-section" id="logo-jurusan">
+        <div class="category-header">
+          <div>
+            <span class="eyebrow">Kategori Jurusan</span>
+            <h2>Logo Jurusan</h2>
+          </div>
+          <p>Koleksi lengkap setiap jurusan kreatif SMKN 12 Surabaya.</p>
+        </div>
+        <div class="logo-grid" id="jurusanGrid" aria-live="polite"></div>
+      </section>
+
+      <section class="category-section" id="logo-ekskul">
+        <div class="category-header">
+          <div>
+            <span class="eyebrow">Kategori Ekstrakurikuler</span>
+            <h2>Logo Ekstrakurikuler</h2>
+          </div>
+          <p>Beragam logo unit kegiatan siswa untuk kebutuhan promosi dan dokumentasi.</p>
+        </div>
+        <div class="logo-grid" id="ekskulGrid" aria-live="polite"></div>
+      </section>
+
+      <div class="empty-state" id="emptyState" hidden>
+        <p>Logo tidak ditemukan untuk kata kunci atau filter yang kamu pilih.</p>
+        <button class="btn btn-secondary" id="resetFilters">Reset Pencarian</button>
+      </div>
+    </main>
+
+    <section class="submission-section" id="logo-submission">
+      <div class="submission-content">
+        <p class="submission-eyebrow">Kontribusi Logo</p>
+        <h2>Ingin mengirim logo SMKN 12 Surabaya?</h2>
+        <p>
+          Jika ingin apply logo kami sangat menerima logo logo SMKN 12 Surabaya. Selamat datang di
+          halaman pengumpulan logo untuk kebutuhan platform My Rologo, pusat download logo SMKN 12
+          Surabaya. Formulir ini digunakan untuk mengumpulkan seluruh aset visual yang berkaitan
+          dengan SMKN 12 Surabaya, termasuk namun tidak terbatas pada:
+        </p>
+        <ul>
+          <li>Logo Event SMKN 12 Surabaya</li>
+          <li>Logo Jurusan/Program Keahlian</li>
+          <li>Logo Ekstrakurikuler</li>
+          <li>Logo, tagline, atau identitas visual sekolah</li>
+          <li>Variasi format (PNG, JPG, SVG)</li>
+          <li>Versi warna, hitam-putih, dan monokrom</li>
+        </ul>
+        <p>
+          Harap unggah logo yang resmi, berkualitas tinggi, dan terverifikasi agar dapat digunakan
+          oleh siswa, guru, panitia event, serta seluruh pihak yang membutuhkan aset visual sekolah.
+          Dengan mengirimkan file melalui formulir ini, Anda menyetujui bahwa logo akan dipublikasikan
+          di website My Rologo dan dapat diunduh oleh publik untuk keperluan resmi sekolah. Terima
+          kasih atas kontribusi Anda dalam melengkapi logo SMKN 12 Surabaya.
+        </p>
+        <a
+          class="btn btn-highlight submission-cta"
+          href="https://docs.google.com/forms/d/e/1FAIpQLScTI_BqreaSI3iHUY8DQ_O7Hq1jiWacLDTuQ9fxQDPT7M63Fw/viewform?usp=publish-editor"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          Buka Formulir Pengumpulan Logo
+        </a>
+      </div>
+    </section>
+
+    <footer class="site-footer" id="footer">
+      <p>&copy; <span id="year"></span> My Rologo &middot; SMKN 12 Surabaya.</p>
+      <small>Dikembangkan khusus untuk memudahkan akses identitas visual resmi sekolah.</small>
+    </footer>
+
+    <script src="js/app.js" defer></script>
+  </body>
+</html>
